@@ -1,0 +1,8 @@
+Exercise One: Single Page App
+
+- Cordova
+- AngularJs
+- Ionic
+
+I use ionic framework make this App.
+Firstly filter search name and company, after than click the view more will be show all detail. I am not show all to one page because make the clean and easy to see.

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	font-size:19px;
+	line-height:23px;
+	margin:8px 0 2px;
+}
+h2{
+	font-size:15px !important;
+	line-height:19px;
+	color:#ff4d00;
+}
+img{
+	position:absolute;
+}
+input{
+	width:100%;
+}
+
+/**  
+==========================================================
+USER STYLE
+========================================================== **/
+.usersList p{
+	line-height:17px;
+	text-decoration:underline;
+	margin-top:5px;
+}
+.userDetails{
+	padding-left:116px;
+	margin-bottom:15px;
+	min-height:100px;
+}
+.userDetails h1{
+	padding-top:5px;
+}
+.userDetails h2{
+	margin:0 0 7px 0;
+}
+.userDetails p{
+	margin:0;
+}
+/**  
+==========================================================
+OTHER STYLE
+========================================================== **/
+.scroll-bar-indicator{
+	display:none;
+}
+.bar{
+	padding:5px 10px;
+}
+.button.button-icon.input-button{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb;
+}
+/**  
+==========================================================
+RESIZE STYLE
+========================================================== **/
+@media screen and (max-width: 320px) {
+	
+	h1{
+		font-size:17px;
+		line-height:21px;
+		margin:8px 0 2px;
+	}
+	h2{
+		font-size:13px !important;
+		line-height:17px;
+		color:#ff4d00;
+	}
+	p, 
+	.item p{
+		font-size:12px;
+		line-height:16px;
+	}
+	.item{
+		font-size:14px;
+		line-height:18px;
+	}
+	.userImg{
+		position:relative;
+		width:100%;
+		height:auto;
+	}
+	.userDetails{
+		padding-left:0;
+		min-height:initial;
+	}
+	
+}
